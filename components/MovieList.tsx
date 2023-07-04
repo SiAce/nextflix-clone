@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { MovieInterface } from '@/types';
-import { isEmpty } from 'lodash';
 import MovieCard from '@/components/MovieCard';
+import { isEmpty } from 'lodash';
 
 interface MovieListProps {
   data: MovieInterface[];
@@ -24,7 +24,7 @@ const MovieList: React.FC<MovieListProps> = ({ data, title }) => {
           ))}
         </div>
       </div>
-    </div >
+    </div>
   );
 }
 
